@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# OpenSCAD / CAD backup and lock files
+*.scad~
+*.bak
+~$*
+
+# Slicer output (regenerate from STL)
+*.gcode
+
+# Editor and OS files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -6,7 +6,7 @@ Scope: `car.scad`, its three STL parts, preview, tests, and the car instructions
 
 The previous session's exact Critic / Writer / Moderator protocol was recovered and followed sequentially, one issue at a time. An independent Critic checked the evidence and the Writer's proposed changes; the Moderator consulted the installed Ponytail review guidance and enforced the smallest sufficient correction. No deadlock needed a ruling.
 
-There is no Git repository here. Original top-level files were preserved in `/tmp/xc7kodok-car-review-waqk1hx2/` with SHA-256 hashes before editing. The desktop design and proprietary battery model are outside the modification scope.
+There was no Git repository at review time. Original top-level files were preserved in `/tmp/xc7kodok-car-review-waqk1hx2/` with SHA-256 hashes before editing. The desktop design and battery model are outside the modification scope.
 
 ## Issue ledger
 
@@ -102,7 +102,7 @@ The Moderator closes C1, C2, and C5 as fixed. C3 and C4 have corrected claims an
 
 ## Hardware limits
 
-No physical print, release-force test, spring stroke/force measurement, vibration test, screw pull-out test, adhesive qualification, electrical test, thermal test, or vehicle trial was performed. The proprietary battery model was preserved but not independently decoded. Manufacturer connector dimensions were checked against the [BC-25 drawing](https://datasheet.lcsc.com/datasheet/pdf/8153bae77de8ce951813d5d88903037f.pdf?productCode=C707322); actual connector tolerances and soldered wire clearance remain unverified.
+No physical print, release-force test, spring stroke/force measurement, vibration test, screw pull-out test, adhesive qualification, electrical test, thermal test, or vehicle trial was performed. The battery model was preserved but not independently decoded. Manufacturer connector dimensions were checked against the [BC-25 drawing](https://datasheet.lcsc.com/datasheet/pdf/8153bae77de8ce951813d5d88903037f.pdf?productCode=C707322); actual connector tolerances and soldered wire clearance remain unverified.
 
 The codebase graph was stale for README and did not track the car source/tests. All relevant source was read directly; no coverage claim relies on that graph.
 

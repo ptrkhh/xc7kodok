@@ -4,7 +4,7 @@
 
 Scope: the supplied seven files, treated as a prototype for one battery and one TP4056 module. Requirements come from README.md: printable cradle and plate, aligned battery contacts, space for the specified connector and module, and usable assembly instructions. Success means supported geometry, matching exports, reproducible checks, and explicit limits on hardware claims. Physical fit and charging cannot be established from CAD alone.
 
-The Moderator consulted [Ponytail](https://github.com/DietrichGebert/ponytail) and its installed skill: use the smallest complete fix, preserve validation and physical calibration, and test risky changes. No Git metadata exists in this directory; originals were copied to `/tmp/xc7kodok-review-orMBNE/original/` before editing.
+The Moderator consulted [Ponytail](https://github.com/DietrichGebert/ponytail) and its installed skill: use the smallest complete fix, preserve validation and physical calibration, and test risky changes. No Git metadata existed in this directory at review time; originals were copied to `/tmp/xc7kodok-review-orMBNE/original/` before editing.
 
 ## Issue ledger
 
@@ -52,7 +52,7 @@ The Moderator consulted [Ponytail](https://github.com/DietrichGebert/ponytail) a
 - Baseline OpenSCAD 2021.01 exports succeeded; both supplied STLs matched fresh exports triangle for triangle. Both had closed edges and positive volume.
 - Initial default battery, PCB, and connector-box clearance checks passed, but the connector box used the incorrect defaults; I1 invalidated that part of the evidence.
 - The initial codebase graph indexed README and CSV only; the added Python tests were indexed later. SCAD and binary artifacts were not tracked; source, rendered solids, and the preview were inspected directly.
-- The proprietary SolidWorks battery file was preserved but could not be independently decoded here. Battery dimensions and polarity remain the README's supplied assumptions.
+- The SolidWorks battery file was preserved but could not be independently decoded here. Battery dimensions and polarity remain the README's supplied assumptions.
 - No physical print, actual connector/module fit, spring-force test, electrical test, or thermal test has been performed.
 
 ## Integrated Critic review
